@@ -83,7 +83,7 @@ export function Hero() {
 
             <div className="flex gap-4 animate-in fade-in slide-in-from-left duration-700 delay-500">
               <a
-                href="https://github.com"
+                href="https://github.com/ShreyaRHipparagi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="h-12 w-12 rounded-xl bg-card border border-border flex items-center justify-center hover:bg-primary hover:text-primary-foreground hover:border-primary hover:scale-110 hover:rotate-6 transition-all duration-300 glow-effect"
@@ -108,7 +108,7 @@ export function Hero() {
           </div>
 
           <div className="relative animate-in fade-in slide-in-from-right duration-700 delay-300">
-            <div className="relative w-full aspect-square max-w-md mx-auto">
+            <div className="relative w-full aspect-[3/4] max-w-md mx-auto">
               {/* Multiple glowing layers */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/50 via-accent/50 to-chart-2/50 rounded-3xl blur-3xl opacity-60 animate-pulse" />
               <div className="absolute inset-0 bg-gradient-to-tl from-accent/40 via-primary/40 to-chart-3/40 rounded-3xl blur-2xl opacity-50 animate-pulse delay-75" />

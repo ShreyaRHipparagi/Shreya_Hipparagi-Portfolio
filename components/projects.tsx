@@ -8,34 +8,39 @@ import { cn } from "@/lib/utils"
 
 const projectsData = [
   {
-    title: "Student Result Management",
+    title: "Personal Portfolio Website",
     description:
-      "Created a file-based system to manage and calculate student marks and grades using classes and I/O operations.",
-    tech: ["C++", "File Handling", "OOP"],
-    github: "#",
+      "A modern, responsive portfolio website showcasing projects, skills, and achievements with beautiful animations and smooth user experience.",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/ShreyaRHipparagi/Shreya_Hipparagi-Portfolio",
+    demo: "https://v0-shreya-hipparagi.vercel.app/",
     gradient: "from-violet-500 via-purple-500 to-pink-500",
   },
   {
-    title: "Portfolio Website",
-    description: "Built a personal website to showcase projects and skills; responsive layout hosted on GitHub Pages.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "#",
-    demo: "#",
+    title: "StudyWithFlow AI – Smart Study Planner",
+    description:
+      "AI-powered study planning platform that helps students organize their learning schedule and track progress efficiently.",
+    tech: ["React", "TypeScript", "AI/ML", "Lovable"],
+    github: "https://github.com/ShreyaRHipparagi/studywithflowai",
+    demo: "https://studywithflowai.lovable.app",
     gradient: "from-blue-500 via-cyan-500 to-teal-500",
   },
   {
-    title: "Library Management System",
+    title: "FAANG Interview Preparation Platform",
     description:
-      "CLI-based project to manage book records, student details, and issue/return features using file handling.",
-    tech: ["Python", "File I/O", "Data Structures"],
-    github: "#",
+      "Comprehensive platform for FAANG interview preparation with coding challenges, system design, and practice resources.",
+    tech: ["Python", "Flask", "MongoDB", "RESTful API"],
+    github: "https://github.com/ShreyaRHipparagi/FAANG",
+    demo: "https://faang-app.onrender.com",
     gradient: "from-pink-500 via-rose-500 to-red-500",
   },
   {
-    title: "Calculator App",
-    description: "Console application for basic arithmetic operations with menu-driven logic and loop control.",
-    tech: ["C", "Algorithms"],
-    github: "#",
+    title: "AI Yoga Trainer",
+    description:
+      "AI-powered yoga training application that provides real-time pose detection and personalized feedback for yoga practitioners.",
+    tech: ["Python", "TensorFlow", "OpenCV", "Flask"],
+    github: "https://github.com/ShreyaRHipparagi/AI-Yoga",
+    demo: "https://yoga-ai-app.onrender.com",
     gradient: "from-amber-500 via-orange-500 to-red-500",
   },
 ]
