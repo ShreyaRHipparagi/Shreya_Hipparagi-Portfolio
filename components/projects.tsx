@@ -2,15 +2,30 @@
 
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Github } from "lucide-react"
+import { ExternalLink, Github, Blocks, Code2, Cpu, Database, Terminal, Palette, Brain } from "lucide-react"
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 import { cn } from "@/lib/utils"
+
+const techIcons: Record<string, { icon: any; color: string }> = {
+  "Next.js": { icon: Blocks, color: "text-slate-700" },
+  React: { icon: Code2, color: "text-cyan-500" },
+  TypeScript: { icon: Code2, color: "text-blue-600" },
+  "Tailwind CSS": { icon: Palette, color: "text-teal-500" },
+  "AI/ML": { icon: Brain, color: "text-purple-500" },
+  Lovable: { icon: Blocks, color: "text-pink-500" },
+  Python: { icon: Terminal, color: "text-yellow-500" },
+  Flask: { icon: Terminal, color: "text-gray-600" },
+  MongoDB: { icon: Database, color: "text-green-600" },
+  "RESTful API": { icon: Code2, color: "text-indigo-500" },
+  TensorFlow: { icon: Cpu, color: "text-orange-500" },
+  OpenCV: { icon: Cpu, color: "text-red-500" },
+}
 
 const projectsData = [
   {
     title: "Personal Portfolio Website",
     description:
-      "A modern, responsive portfolio website showcasing projects, skills, and achievements with beautiful animations and smooth user experience.",
+      "A modern, responsive portfolio website showcasing professional projects, technical skills, and academic achievements with beautiful animations, smooth scrolling effects, and an elegant user interface for optimal presentation.",
     tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     github: "https://github.com/ShreyaRHipparagi/Shreya_Hipparagi-Portfolio",
     demo: "https://v0-shreya-hipparagi.vercel.app/",
@@ -19,7 +34,7 @@ const projectsData = [
   {
     title: "StudyWithFlow AI – Smart Study Planner",
     description:
-      "AI-powered study planning platform that helps students organize their learning schedule and track progress efficiently.",
+      "An intelligent AI-powered study planning platform that helps students organize their learning schedule, track academic progress, set goals, and optimize study sessions with personalized recommendations for improved learning outcomes.",
     tech: ["React", "TypeScript", "AI/ML", "Lovable"],
     github: "https://github.com/ShreyaRHipparagi/studywithflowai",
     demo: "https://studywithflowai.lovable.app",
@@ -28,7 +43,7 @@ const projectsData = [
   {
     title: "FAANG Interview Preparation Platform",
     description:
-      "Comprehensive platform for FAANG interview preparation with coding challenges, system design, and practice resources.",
+      "A comprehensive platform designed for FAANG interview preparation featuring coding challenges, data structures practice, system design problems, algorithm implementations, and extensive practice resources for technical interviews.",
     tech: ["Python", "Flask", "MongoDB", "RESTful API"],
     github: "https://github.com/ShreyaRHipparagi/FAANG",
     demo: "https://faang-app.onrender.com",
@@ -37,7 +52,7 @@ const projectsData = [
   {
     title: "AI Yoga Trainer",
     description:
-      "AI-powered yoga training application that provides real-time pose detection and personalized feedback for yoga practitioners.",
+      "An advanced AI-powered yoga training application that provides real-time pose detection, accuracy feedback, personalized corrections, and progress tracking to help practitioners improve their yoga practice with intelligent guidance.",
     tech: ["Python", "TensorFlow", "OpenCV", "Flask"],
     github: "https://github.com/ShreyaRHipparagi/AI-Yoga",
     demo: "https://yoga-ai-app.onrender.com",
@@ -90,17 +105,22 @@ export function Projects() {
                       {project.title}
                     </h3>
 
-                    <p className="text-muted-foreground leading-relaxed">{project.description}</p>
+                    <p className="text-muted-foreground leading-relaxed min-h-[120px]">{project.description}</p>
 
                     <div className="flex flex-wrap gap-2">
-                      {project.tech.map((tech, i) => (
-                        <span
-                          key={i}
-                          className="px-3 py-1 text-sm rounded-full bg-primary/10 text-primary font-medium group-hover:bg-primary/20 transition-colors"
-                        >
-                          {tech}
-                        </span>
-                      ))}
+                      {project.tech.map((tech, i) => {
+                        const techData = techIcons[tech] || { icon: Code2, color: "text-primary" }
+                        const TechIcon = techData.icon
+                        return (
+                          <span
+                            key={i}
+                            className="px-3 py-1.5 text-sm rounded-full bg-primary/10 text-primary font-medium group-hover:bg-primary/20 transition-colors flex items-center gap-1.5"
+                          >
+                            <TechIcon className={cn("h-4 w-4", techData.color)} />
+                            {tech}
+                          </span>
+                        )
+                      })}
                     </div>
 
                     <div className="flex gap-3 pt-2">

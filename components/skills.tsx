@@ -1,7 +1,7 @@
 "use client"
 
 import { Card } from "@/components/ui/card"
-import { Code2, Globe, Wrench, BookOpen } from "lucide-react"
+import { Code2, Globe, Wrench, BookOpen, Cpu, Database, Terminal, Github, Box, FileCode2, Network } from "lucide-react"
 import { useScrollReveal } from "@/hooks/use-scroll-reveal"
 import { cn } from "@/lib/utils"
 
@@ -9,25 +9,42 @@ const skillsData = [
   {
     category: "Languages",
     icon: Code2,
-    skills: ["C", "C++", "Python (Basic)"],
+    skills: [
+      { name: "C", icon: Code2, color: "text-blue-600" },
+      { name: "Java", icon: FileCode2, color: "text-orange-600" },
+      { name: "Python", icon: Terminal, color: "text-yellow-600" },
+    ],
     color: "from-violet-500 to-purple-500",
   },
   {
     category: "Web Development",
     icon: Globe,
-    skills: ["HTML", "CSS", "JavaScript (Basic)"],
+    skills: [
+      { name: "HTML", icon: FileCode2, color: "text-orange-500" },
+      { name: "CSS", icon: Box, color: "text-blue-500" },
+      { name: "JavaScript", icon: Code2, color: "text-yellow-500" },
+    ],
     color: "from-blue-500 to-cyan-500",
   },
   {
     category: "Tools",
     icon: Wrench,
-    skills: ["Git", "GitHub", "VS Code"],
+    skills: [
+      { name: "Git", icon: Github, color: "text-orange-600" },
+      { name: "GitHub", icon: Github, color: "text-slate-700" },
+      { name: "VS Code", icon: Terminal, color: "text-blue-600" },
+    ],
     color: "from-pink-500 to-rose-500",
   },
   {
     category: "Learning",
     icon: BookOpen,
-    skills: ["DSA", "OOP Concepts"],
+    skills: [
+      { name: "Data Structures & Algorithms", icon: Database, color: "text-green-600" },
+      { name: "Object-Oriented Programming", icon: Cpu, color: "text-purple-600" },
+      { name: "Operating Systems", icon: Terminal, color: "text-indigo-600" },
+      { name: "Computer Networks", icon: Network, color: "text-teal-600" },
+    ],
     color: "from-amber-500 to-orange-500",
   },
 ]
@@ -62,7 +79,7 @@ export function Skills() {
                   <Card
                     key={index}
                     className={cn(
-                      "p-6 hover:shadow-2xl transition-all duration-500 border-border bg-card group relative overflow-hidden",
+                      "p-6 hover:shadow-2xl transition-all duration-500 border-border bg-card group relative overflow-hidden h-full",
                       isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20",
                     )}
                     style={{ transitionDelay: `${index * 100}ms` }}
@@ -79,21 +96,26 @@ export function Skills() {
                         <Icon className="h-6 w-6 text-primary" />
                       </div>
 
-                      <h3 className="font-space-grotesk text-xl font-bold group-hover:text-primary transition-colors">
+                      <h3 className="font-space-grotesk text-xl font-bold group-hover:text-primary transition-colors min-h-[56px] flex items-center">
                         {category.category}
                       </h3>
 
-                      <ul className="space-y-2">
-                        {category.skills.map((skill, i) => (
-                          <li
-                            key={i}
-                            className="text-muted-foreground flex items-center gap-2 group-hover:translate-x-1 transition-transform duration-300"
-                            style={{ transitionDelay: `${i * 50}ms` }}
-                          >
-                            <span className="h-1.5 w-1.5 rounded-full bg-primary group-hover:scale-150 transition-transform" />
-                            {skill}
-                          </li>
-                        ))}
+                      <ul className="space-y-3">
+                        {category.skills.map((skill, i) => {
+                          const SkillIcon = skill.icon
+                          return (
+                            <li
+                              key={i}
+                              className="text-muted-foreground flex items-center gap-2 group-hover:translate-x-1 transition-transform duration-300"
+                              style={{ transitionDelay: `${i * 50}ms` }}
+                            >
+                              <div className="h-6 w-6 rounded flex items-center justify-center bg-primary/10 group-hover:bg-primary/20 transition-colors flex-shrink-0">
+                                <SkillIcon className={cn("h-3.5 w-3.5", skill.color)} />
+                              </div>
+                              <span className="text-sm leading-tight">{skill.name}</span>
+                            </li>
+                          )
+                        })}
                       </ul>
                     </div>
                   </Card>
