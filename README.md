@@ -1,127 +1,114 @@
-# 👋 Hi, I’m **Shreya R H**
+<div align="center">
+
+# 👋 **Shreya R H**
+
+</div>
 
 <p align="center">
-  <img src="./assets/shreya.jpg" alt="Shreya R H" width="170" style="border-radius:50%;"/>
+  <img src="./assets/shreya-profile.png" alt="Shreya R H" width="200" style="border-radius:20px; box-shadow: 0 10px 40px rgba(0,0,0,0.3); margin-bottom: 20px;"/>
 </p>
 
-**🎓 2nd Year B.E. — Information Science & Engineering**  •  JSS Academy of Technical Education, Bangalore
+<div align="center">
 
-**🚀 Aspiring SDE | Full-Stack · AI/ML · System Design** 
+### 🎓 2nd Year B.E. — Information Science & Engineering
+**JSS Academy of Technical Education, Bangalore**
+
+### 🚀 **Aspiring SDE** — Full-Stack • AI/ML • System Design
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-v0--shreya--hipparagi.vercel.app-7b2ff7?style=for-the-badge&logo=vercel)](https://v0-shreya-hipparagi.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Shreya-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shreya-hipparagi-349b76335)
+[![GitHub](https://img.shields.io/badge/GitHub-ShreyaRHipparagi-181717?style=for-the-badge&logo=github)](https://github.com/ShreyaRHipparagi)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA500?style=for-the-badge&logo=leetcode)](https://leetcode.com/u/G0Ynab3aPn/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:shreyahipparagi2006@gmail.com)
+
+</div>
 
 ---
 
-[![Website](https://img.shields.io/badge/Portfolio-v0--shreya--hipparagi.vercel.app-blue)](https://v0-shreya-hipparagi.vercel.app) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Shreya-blue)](https://www.linkedin.com/in/shreya-hipparagi-349b76335) [![Email](https://img.shields.io/badge/Email-shreyahipparagi2006@gmail.com-red)](mailto:shreyahipparagi2006@gmail.com) [![LeetCode](https://img.shields.io/badge/LeetCode-profile-orange)](https://leetcode.com/u/G0Ynab3aPn/)
-
----
-
-## 🌟 One-liner
+## 🌟 About Me
 
 I build polished web apps and AI tools — from concept to deployment — and prepare seriously for product engineering roles at top tech companies.
 
----
-
 ## 🔭 Current Focus
 
-* Preparing for FAANG/Microsoft/Google SWE interviews (DSA + System Design fundamentals)
-* Building full-stack products with React + Node.js
-* Exploring computer vision and prompt-engineering based solutions
+- 🎯 Preparing for **FAANG/Microsoft/Google** SWE interviews (DSA + System Design)
+- 🛠️ Building full-stack products with **React + Node.js**
+- 🤖 Exploring computer vision and prompt-engineering solutions
 
----
+## 🛠️ Tech Stack
 
-## 🛠️ Technical Skills
-
-**Languages:** C · Java · Python
-**Web:** HTML · CSS · JavaScript · React
-**Backend:** Node.js · Express.js
-**DB:** MongoDB · Firebase
-**AI/ML:** Computer Vision · Prompt Engineering
-**Tools:** Git · GitHub · VS Code · Postman
-**Deployment:** Vercel · Render · Netlify
+| Category | Skills |
+|----------|--------|
+| **Languages** | C, Java, Python |
+| **Frontend** | HTML, CSS, JavaScript, React, TypeScript |
+| **Backend** | Node.js, Express.js |
+| **Databases** | MongoDB, Firebase |
+| **AI/ML** | Computer Vision, Prompt Engineering |
+| **Tools & Deploy** | Git, GitHub, VS Code, Postman, Vercel, Render, Netlify |
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔗 Personal Portfolio Website
-
-* **Live:** [https://v0-shreya-hipparagi.vercel.app](https://v0-shreya-hipparagi.vercel.app)
-* **Repo:** [https://github.com/ShreyaRHipparagi/Shreya_Hipparagi-Portfolio](https://github.com/ShreyaRHipparagi/Shreya_Hipparagi-Portfolio)
-  Built with **React + TypeScript**. Includes animations, dark/light mode, SEO optimizations and accessibility improvements.
-
-### 🔗 StudyWithFlow AI — Smart Study Planner
-
-* **Live:** [https://studywithflowai.lovable.app](https://studywithflowai.lovable.app)
-* **Repo:** [https://github.com/ShreyaRHipparagi/studywithflowai](https://github.com/ShreyaRHipparagi/studywithflowai)
-  AI-driven adaptive schedules, interactive dashboard with charts & offline session recovery.
-
-### 🔗 FAANG Interview Prep Platform
-
-* **Live:** [https://faang-app.onrender.com](https://faang-app.onrender.com)
-* **Repo:** [https://github.com/ShreyaRHipparagi](https://github.com/ShreyaRHipparagi)
-  Full-stack platform for DSA practice with gamified learning paths and progress dashboards.
-
-### 🔗 React Food Delivery App
-
-* **Repo:** [https://github.com/ShreyaRHipparagi/react-food-delivery-app](https://github.com/ShreyaRHipparagi/react-food-delivery-app)
-  Responsive, mobile-first UI with real-time cart updates and Context API state management.
-
-### 🔗 AI Yoga Trainer
-
-* **Live:** [https://yoga-ai-app.onrender.com](https://yoga-ai-app.onrender.com)
-  Computer-vision based posture detection with real-time feedback and a seamless webcam integration.
+| Project | Description | Links |
+|---------|-------------|-------|
+| **Personal Portfolio Website** | React + TypeScript with animations, dark/light mode, and SEO optimizations | [Live](https://v0-shreya-hipparagi.vercel.app) · [Repo](https://github.com/ShreyaRHipparagi/Shreya_Hipparagi-Portfolio) |
+| **StudyWithFlow AI** | AI-driven adaptive study scheduler with interactive dashboard and offline recovery | [Live](https://studywithflowai.lovable.app) · [Repo](https://github.com/ShreyaRHipparagi/studywithflowai) |
+| **FAANG Interview Prep** | Full-stack DSA platform with gamified learning and progress dashboards | [Live](https://faang-app.onrender.com) · [Repo](https://github.com/ShreyaRHipparagi) |
+| **React Food Delivery App** | Responsive mobile-first UI with real-time cart and Context API state management | [Repo](https://github.com/ShreyaRHipparagi/react-food-delivery-app) |
+| **AI Yoga Trainer** | Computer vision posture detection with real-time webcam feedback | [Live](https://yoga-ai-app.onrender.com) |
 
 ---
 
-## 🏆 Certifications & Achievements
+## 🏆 Achievements & Recognition
 
-* C Programming (Pointers, Structures, File Handling)
-* Cyber Security Fundamentals
-* SSLC School Topper (99%)
-* Top 5% of PU Batch
-* Volunteer — National Conference on Innovation (JSSATEB)
+- ⭐ **SSLC School Topper** — 99%
+- 🏅 **Top 5%** of PU Batch
+- 🎓 **Certifications:** C Programming (Pointers, Structures, File Handling) · Cyber Security Fundamentals
+- 🤝 **Volunteer** — National Conference on Innovation (JSSATEB)
 
----
+## 🎯 Extracurricular & Community
 
-## 🎯 Extracurricular
-
-* Active member of the coding club; organized hackathons & DSA sessions
-* Participated in Google Developer Student Clubs (GDSC) events
-* Mentored juniors in web development and Git/GitHub workflows
+- 💻 Active member of the **coding club** — organized hackathons & DSA sessions
+- 🌐 Participated in **Google Developer Student Clubs (GDSC)** events
+- 🎓 **Mentored juniors** in web development and Git/GitHub workflows
 
 ---
 
-## 📫 Contact & Links
+## 📫 Get in Touch
 
-* **Email:** [shreyahipparagi2006@gmail.com](mailto:shreyahipparagi2006@gmail.com)
-* **LinkedIn:** [https://www.linkedin.com/in/shreya-hipparagi-349b76335](https://www.linkedin.com/in/shreya-hipparagi-349b76335)
-* **Portfolio:** [https://v0-shreya-hipparagi.vercel.app/](https://v0-shreya-hipparagi.vercel.app/)
-* **GitHub:** [https://github.com/ShreyaRHipparagi](https://github.com/ShreyaRHipparagi)
-* **LeetCode:** [https://leetcode.com/u/G0Ynab3aPn/](https://leetcode.com/u/G0Ynab3aPn/)
+<div align="center">
 
----
+| Platform | Link |
+|----------|------|
+| 💌 **Email** | [shreyahipparagi2006@gmail.com](mailto:shreyahipparagi2006@gmail.com) |
+| 🔗 **LinkedIn** | [linkedin.com/in/shreya-hipparagi-349b76335](https://www.linkedin.com/in/shreya-hipparagi-349b76335) |
+| 🌐 **Portfolio** | [v0-shreya-hipparagi.vercel.app](https://v0-shreya-hipparagi.vercel.app/) |
+| 💻 **GitHub** | [github.com/ShreyaRHipparagi](https://github.com/ShreyaRHipparagi) |
+| 🚀 **LeetCode** | [leetcode.com/u/G0Ynab3aPn](https://leetcode.com/u/G0Ynab3aPn/) |
 
-## 📊 GitHub Stats (optional)
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ShreyaRHipparagi&show_icons=true&theme=radical" alt="Shreya's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyaRHipparagi&layout=compact&theme=radical" alt="Top languages" />
-</p>
+</div>
 
 ---
 
-## ✨ How to use this README
+## 📊 GitHub Stats
 
-1. **Add your photo:** place a square image named `shreya.jpg` in `/assets/` (recommended size: 400×400 px). The README already references `./assets/shreya.jpg`.
-2. **Edit badges:** replace portfolio/LinkedIn/LeetCode URLs with your preferred handles if needed.
-3. **Deploy:** commit `README.md` to your repo root. GitHub will render it automatically on your profile repo page.
+<div align="center">
 
----
+<img src="https://github-readme-stats.vercel.app/api?username=ShreyaRHipparagi&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
 
-## 🙋‍♀️ Want it even fancier?
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyaRHipparagi&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 
-* I can add a **dark-mode toggle** preview, **animated SVG** header, or **GitHub action** to update stats automatically.
-* I can also generate a ready-to-commit `assets/shreya.jpg` placeholder from your portfolio image if you want.
+</div>
 
 ---
 
-*Made with ❤️ by Shreya — always learning, building and shipping.*
+<div align="center">
+
+### ✨ *Always learning, building, and shipping great products* ✨
+
+Made with ❤️ by **Shreya**
+
+</div>
